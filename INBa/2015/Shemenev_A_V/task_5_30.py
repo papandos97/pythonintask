@@ -3,22 +3,18 @@
 # Shemenev A.V
 # 28.03.16
 
- import random
-print("Программа случайным образом отображает имя одного из трех племянников Скруджа МакДака."
-x = int (random.randint(1,4))
-print("Имя племянника":+str(x))
+import random
+print("Программа случайным образом отображает имя одного из трех племянников Скруджа МакДака.")
+x = int (random.randint(1,3))
+print("Имя племянника")
 if x == 1:
     print ('Билли')
-	elif x == 2:
+elif x == 2:
     print ('Вилли')
-	elif x == 3:
-     print (' Дилли')
-	
-    
- 
+else:
+    print (' Дилли')
 
-
-input()
+input("Для выхода нажмите Enter.")
 
 
 
